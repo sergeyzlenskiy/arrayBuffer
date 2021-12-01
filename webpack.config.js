@@ -4,6 +4,7 @@ const HtmlWebPackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
 module.exports = {
+  entry: './src/converter.js',
   output: {
     path: path.resolve(__dirname, 'dist'),
   },
